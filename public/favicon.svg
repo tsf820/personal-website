@@ -2,21 +2,21 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 16) rotate(90) scale(16)">
-      <stop offset="0%" stop-color="#FF6B6B">
+      <stop offset="0%" stop-color="#FFD700">
         <animate attributeName="stop-color" 
-          values="#FF6B6B;#FF3434;#FF4D4D;#FF6B6B" 
+          values="#FFD700;#FF0000;#FFD700" 
           dur="2s" 
           repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#FF4D4D">
+      <stop offset="50%" stop-color="#FFA500">
         <animate attributeName="stop-color" 
-          values="#FF4D4D;#FF6B6B;#FF3434;#FF4D4D" 
+          values="#FFA500;#FFD700;#FF0000;#FFA500" 
           dur="2s" 
           repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#FF3434">
+      <stop offset="100%" stop-color="#FF0000">
         <animate attributeName="stop-color" 
-          values="#FF3434;#FF4D4D;#FF6B6B;#FF3434" 
+          values="#FF0000;#FFA500;#FFD700;#FF0000" 
           dur="2s" 
           repeatCount="indefinite"/>
       </stop>
