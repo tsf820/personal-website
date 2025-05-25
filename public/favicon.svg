@@ -5,19 +5,13 @@
       <stop offset="0%" stop-color="#FFD700">
         <animate attributeName="stop-color" 
           values="#FFD700;#FF0000;#FFD700" 
-          dur="2s" 
-          repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#FFA500">
-        <animate attributeName="stop-color" 
-          values="#FFA500;#FFD700;#FF0000;#FFA500" 
-          dur="2s" 
+          dur="1.5s" 
           repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#FF0000">
         <animate attributeName="stop-color" 
-          values="#FF0000;#FFA500;#FFD700;#FF0000" 
-          dur="2s" 
+          values="#FF0000;#FFD700;#FF0000" 
+          dur="1.5s" 
           repeatCount="indefinite"/>
       </stop>
     </radialGradient>
@@ -28,7 +22,7 @@
       type="rotate"
       from="0 16 16"
       to="360 16 16"
-      dur="3s"
+      dur="2s"
       repeatCount="indefinite"/>
   </circle>
 </svg> 
