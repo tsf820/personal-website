@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes colorize {
+      0% { stop-color: #FF3434; }
+      50% { stop-color: #FF0000; }
+      100% { stop-color: #FF3434; }
+    }
+    circle {
+      animation: rotate 3s linear infinite;
+      transform-origin: center;
+    }
+    #gradient-start {
+      animation: colorize 2s ease-in-out infinite;
+    }
+    #gradient-end {
+      animation: colorize 2s ease-in-out infinite reverse;
+    }
+  </style>
   <defs>
     <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 16) rotate(90) scale(16)">
-      <stop offset="0%" stop-color="#FF3434">
-        <animate attributeName="stop-color" 
-          values="#FF3434;#FF0000;#FF4D4D;#FF3434" 
-          dur="2s" 
-          repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#FF4D4D">
-        <animate attributeName="stop-color" 
-          values="#FF4D4D;#FF3434;#FF0000;#FF4D4D" 
-          dur="2s" 
-          repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#FF0000">
-        <animate attributeName="stop-color" 
-          values="#FF0000;#FF4D4D;#FF3434;#FF0000" 
-          dur="2s" 
-          repeatCount="indefinite"/>
-      </stop>
+      <stop id="gradient-start" offset="0%" stop-color="#FF3434"/>
+      <stop offset="50%" stop-color="#FF0000"/>
+      <stop id="gradient-end" offset="100%" stop-color="#FF3434"/>
     </radialGradient>
   </defs>
-  <circle cx="16" cy="16" r="16" fill="url(#paint0_radial)">
-    <animateTransform
-      attributeName="transform"
-      type="rotate"
-      from="0 16 16"
-      to="360 16 16"
-      dur="3s"
-      repeatCount="indefinite"/>
-  </circle>
+  <circle cx="16" cy="16" r="16" fill="url(#paint0_radial)"/>
 </svg> 
