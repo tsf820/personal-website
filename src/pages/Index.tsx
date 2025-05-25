@@ -34,36 +34,36 @@ const Index = () => {
       {/* Content container with proper overflow handling */}
       <div className="relative z-10 h-full w-full overflow-auto">
         {/* Professional text overlay with modern design */}
-        <div className="fixed md:bottom-12 md:left-12 bottom-8 left-6 z-10 max-w-2xl">
-          <div className="space-y-4 md:space-y-6">
+        <div className="fixed md:bottom-10 md:left-10 bottom-6 left-4 z-10 max-w-xl">
+          <div className="space-y-2.5 md:space-y-3.5">
             {/* Name Section */}
-            <div className="space-y-1 md:space-y-2">
+            <div className="space-y-0.5">
               <div>
-                <h1 className="text-2xl md:text-4xl font-light tracking-tight">Teddy</h1>
-                <h1 className="text-2xl md:text-4xl font-light tracking-tight">Freedman</h1>
+                <h1 className="text-xl md:text-2xl font-light tracking-tight font-satoshi">Teddy</h1>
+                <h1 className="text-xl md:text-2xl font-light tracking-tight font-satoshi">Freedman</h1>
               </div>
               
               {/* Social Links */}
-              <div className="flex items-center space-x-4 ml-1">
+              <div className="flex items-center space-x-2.5 ml-0.5">
                 <a href="https://www.linkedin.com/in/teddyfreedman/" 
                    target="_blank" 
                    rel="noopener noreferrer"
                    className="text-white/70 hover:text-white/90 transition-colors">
-                  <Linkedin size={isMobile ? 12 : 16} />
+                  <Linkedin size={isMobile ? 9 : 13} />
                 </a>
                 <a href="mailto:teddyfreedman@gmail.com"
-                   className="text-white/70 hover:text-white/90 transition-colors flex items-center space-x-2">
-                  <Mail size={isMobile ? 12 : 16} />
-                  <span className="text-[10px] md:text-sm font-light">teddyfreedman@gmail.com</span>
+                   className="text-white/70 hover:text-white/90 transition-colors flex items-center space-x-1.5">
+                  <Mail size={isMobile ? 9 : 13} />
+                  <span className="text-[9px] md:text-[12px] font-light font-satoshi">teddyfreedman@gmail.com</span>
                 </a>
               </div>
             </div>
 
             {/* Current Role - with highlight */}
-            <div className="space-y-3 md:space-y-4">
-              <div className="space-y-1.5 md:space-y-2">
-                <p className="text-xs md:text-base font-light text-white/70">CURRENTLY</p>
-                <p className="text-[10px] md:text-sm font-light ml-3 md:ml-4 hover:text-white/90 transition-colors">
+            <div className="space-y-2 md:space-y-2.5">
+              <div className="space-y-0.5 md:space-y-1">
+                <p className="text-[9px] md:text-[12px] font-light text-white/70 font-satoshi">CURRENTLY</p>
+                <p className="text-[9px] md:text-[12px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
                   Investing in Consumer Brick & Mortar —{' '}
                   <a href="http://bonside.com/" 
                      target="_blank" 
@@ -75,35 +75,35 @@ const Index = () => {
               </div>
 
               {/* Previous Roles - with elegant spacing */}
-              <div className="space-y-1.5 md:space-y-2">
-                <p className="text-xs md:text-base font-light text-white/70">PREVIOUSLY</p>
-                <div className="space-y-1.5 md:space-y-2 ml-3 md:ml-4">
-                  <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
+              <div className="space-y-0.5 md:space-y-1">
+                <p className="text-[9px] md:text-[12px] font-light text-white/70 font-satoshi">PREVIOUSLY</p>
+                <div className="space-y-0.5 md:space-y-1 ml-2">
+                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Democratizing Access to Private Equity —{' '}
                     <a href="http://investwithaqua.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Aqua</a>
                   </p>
-                  <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
+                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Designing Football Pilgrimages with Eric Cantona —{' '}
                     <a href="https://www.seekdharma.com/looking-fc/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Looking FC</a>
                   </p>
-                  <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
+                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Launching Travel Brands —{' '}
                     <a href="https://www.seekdharma.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Dharma</a>
                   </p>
-                  <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
+                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Building Software for Digital Nomads —{' '}
                     <a href="https://www.nomad.do/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Nomad</a>
                   </p>
-                  <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
+                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Late-Stage Technology Private Equity —{' '}
                     <a href="https://siris.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Siris Capital</a>
                   </p>
-                  <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
+                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Fintech Investment Banking —{' '}
                     <a href="https://www.guggenheimpartners.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Guggenheim Partners</a>

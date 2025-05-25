@@ -7,6 +7,10 @@ html, body {
   position: fixed;
   width: 100%;
   height: 100%;
+  font-feature-settings: "ss01", "ss02", "ss03";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 #root {
