@@ -2,10 +2,33 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 16) rotate(90) scale(16)">
-      <stop offset="0%" stop-color="#FF6B6B"/>
-      <stop offset="50%" stop-color="#FF4D4D"/>
-      <stop offset="100%" stop-color="#FF3434"/>
+      <stop offset="0%" stop-color="#FF6B6B">
+        <animate attributeName="stop-color" 
+          values="#FF6B6B;#FF3434;#FF4D4D;#FF6B6B" 
+          dur="2s" 
+          repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#FF4D4D">
+        <animate attributeName="stop-color" 
+          values="#FF4D4D;#FF6B6B;#FF3434;#FF4D4D" 
+          dur="2s" 
+          repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF3434">
+        <animate attributeName="stop-color" 
+          values="#FF3434;#FF4D4D;#FF6B6B;#FF3434" 
+          dur="2s" 
+          repeatCount="indefinite"/>
+      </stop>
     </radialGradient>
   </defs>
-  <circle cx="16" cy="16" r="16" fill="url(#paint0_radial)"/>
+  <circle cx="16" cy="16" r="16" fill="url(#paint0_radial)">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 16 16"
+      to="360 16 16"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </circle>
 </svg> 
