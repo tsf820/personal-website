@@ -16,14 +16,17 @@ const Index = () => {
           width="100%" 
           height="100%"
           title="RetroFuturism Background Animation"
+          loading="lazy"
           style={{ 
             position: 'absolute',
             top: '50%',
             left: '50%',
-            transform: `translate(-50%, -50%) scale(${isMobile ? '0.8' : '1.4'})`,
-            width: isMobile ? '200%' : '120%',
-            height: isMobile ? '200%' : '120%',
+            transform: `translate(-50%, -50%) scale(${isMobile ? '0.6' : '1.4'})`,
+            width: isMobile ? '180%' : '120%',
+            height: isMobile ? '180%' : '120%',
             pointerEvents: 'none',
+            willChange: 'transform',
+            backfaceVisibility: 'hidden',
           }}
         ></iframe>
       </div>
@@ -61,7 +64,7 @@ const Index = () => {
               <div className="space-y-1.5 md:space-y-2">
                 <p className="text-xs md:text-base font-light text-white/70">CURRENTLY</p>
                 <p className="text-[10px] md:text-sm font-light ml-3 md:ml-4 hover:text-white/90 transition-colors">
-                  Investing in Brick & Mortar —{' '}
+                  Investing in Consumer Brick & Mortar —{' '}
                   <a href="http://bonside.com/" 
                      target="_blank" 
                      rel="noopener noreferrer" 
@@ -96,12 +99,12 @@ const Index = () => {
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Nomad</a>
                   </p>
                   <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
-                    Take Privates of Mature Tech Companies —{' '}
+                    Late-Stage Technology Private Equity —{' '}
                     <a href="https://siris.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Siris Capital</a>
                   </p>
                   <p className="text-[10px] md:text-sm font-light hover:text-white/90 transition-colors">
-                    Buying and Selling Fintech Businesses —{' '}
+                    Fintech Investment Banking —{' '}
                     <a href="https://www.guggenheimpartners.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Guggenheim Partners</a>
                   </p>
