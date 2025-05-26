@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'satoshi': ['Satoshi', 'sans-serif'],
+				sans: ["Satoshi", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,15 +21,19 @@
     <meta property="og:image:height" content="64">
     
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="https://teddyfreedman.com">
-    <meta name="twitter:title" content="Teddy Freedman">
-    <meta name="twitter:description" content="Investing in Brick & Mortar at Bonside">
-    <meta name="twitter:image" content="https://teddyfreedman.com/favicon.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://teddyfreedman.com">
+    <meta property="twitter:title" content="Teddy Freedman">
+    <meta property="twitter:description" content="Investing in Brick & Mortar at Bonside">
+    <meta property="twitter:image" content="https://teddyfreedman.com/favicon.png">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Preload Fonts -->
+    <link rel="preload" href="/fonts/satoshi/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/satoshi/Satoshi-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/satoshi/Satoshi-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="/fonts/satoshi/satoshi.css">
   </head>
   <body>
     <div id="root"></div>
