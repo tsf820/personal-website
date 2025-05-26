@@ -39,8 +39,8 @@ const Index = () => {
             {/* Name Section */}
             <div className="space-y-0.5">
               <div>
-                <h1 className="text-xl md:text-2xl font-light tracking-tight font-satoshi">Teddy</h1>
-                <h1 className="text-xl md:text-2xl font-light tracking-tight font-satoshi">Freedman</h1>
+                <h1 className="text-2xl md:text-3xl font-light tracking-tight font-satoshi">Teddy</h1>
+                <h1 className="text-2xl md:text-3xl font-light tracking-tight font-satoshi">Freedman</h1>
               </div>
               
               {/* Social Links */}
@@ -49,12 +49,12 @@ const Index = () => {
                    target="_blank" 
                    rel="noopener noreferrer"
                    className="text-white/70 hover:text-white/90 transition-colors">
-                  <Linkedin size={isMobile ? 9 : 13} />
+                  <Linkedin size={isMobile ? 11 : 15} />
                 </a>
                 <a href="mailto:teddyfreedman@gmail.com"
                    className="text-white/70 hover:text-white/90 transition-colors flex items-center space-x-1.5">
-                  <Mail size={isMobile ? 9 : 13} />
-                  <span className="text-[9px] md:text-[12px] font-light font-satoshi">teddyfreedman@gmail.com</span>
+                  <Mail size={isMobile ? 11 : 15} />
+                  <span className="text-[11px] md:text-[14px] font-light font-satoshi">teddyfreedman@gmail.com</span>
                 </a>
               </div>
             </div>
@@ -62,8 +62,8 @@ const Index = () => {
             {/* Current Role - with highlight */}
             <div className="space-y-2 md:space-y-2.5">
               <div className="space-y-0.5 md:space-y-1">
-                <p className="text-[9px] md:text-[12px] font-light text-white/70 font-satoshi">CURRENTLY</p>
-                <p className="text-[9px] md:text-[12px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
+                <p className="text-[11px] md:text-[14px] font-light text-white/70 font-satoshi">CURRENTLY</p>
+                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
                   Investing in Consumer Brick & Mortar —{' '}
                   <a href="http://bonside.com/" 
                      target="_blank" 
