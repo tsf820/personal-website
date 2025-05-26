@@ -76,34 +76,34 @@ const Index = () => {
 
               {/* Previous Roles - with elegant spacing */}
               <div className="space-y-0.5 md:space-y-1">
-                <p className="text-[9px] md:text-[12px] font-light text-white/70 font-satoshi">PREVIOUSLY</p>
+                <p className="text-[11px] md:text-[14px] font-light text-white/70 font-satoshi">PREVIOUSLY</p>
                 <div className="space-y-0.5 md:space-y-1 ml-2">
-                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Democratizing Access to Private Equity —{' '}
                     <a href="http://investwithaqua.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Aqua</a>
                   </p>
-                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Designing Football Pilgrimages with Eric Cantona —{' '}
                     <a href="https://www.seekdharma.com/looking-fc/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Looking FC</a>
                   </p>
-                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Launching Travel Brands —{' '}
                     <a href="https://www.seekdharma.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Dharma</a>
                   </p>
-                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Building Software for Digital Nomads —{' '}
                     <a href="https://www.nomad.do/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Nomad</a>
                   </p>
-                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Late-Stage Technology Private Equity —{' '}
                     <a href="https://siris.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Siris Capital</a>
                   </p>
-                  <p className="text-[9px] md:text-[12px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
                     Fintech Investment Banking —{' '}
                     <a href="https://www.guggenheimpartners.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Guggenheim Partners</a>
