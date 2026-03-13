@@ -1,10 +1,9 @@
 import { Linkedin, Mail } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { ScrambleText } from "@/components/ScrambleText";
-import { MagneticLink } from "@/components/MagneticLink";
 import { useTextScramble } from "@/hooks/use-text-scramble";
 
-const LINK_CLASS = "text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60";
+const LINK_CLASS = "text-white hover:text-white transition-all duration-300 border-b border-white/20 hover:border-white/80 hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]";
 
 const FadeIn = ({ delay, children }: { delay: number; children: React.ReactNode }) => {
   const { started } = useTextScramble("x", { delay, duration: 100 });
@@ -87,21 +86,21 @@ const Index = () => {
                 </p>
                 <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-sans">
                   <ScrambleText text="Investing in Consumer Brick & Mortar — " delay={4500} duration={1200} />
-                  <MagneticLink href="http://bonside.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                  <a href="http://bonside.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                     <ScrambleText text="Bonside" delay={4800} duration={800} />
-                  </MagneticLink>
+                  </a>
                 </p>
                 <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-sans">
                   <ScrambleText text="Building a Secondaries Platform — " delay={5800} duration={1200} />
-                  <MagneticLink href="https://duendevc.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                  <a href="https://duendevc.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                     <ScrambleText text="Duende Ventures" delay={6100} duration={800} />
-                  </MagneticLink>
+                  </a>
                 </p>
                 <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-sans">
                   <ScrambleText text="Bringing European Tifo Culture to U.S. Sports — " delay={7100} duration={1200} />
-                  <MagneticLink href="https://www.tifolabs.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                  <a href="https://www.tifolabs.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                     <ScrambleText text="TifoLabs" delay={7400} duration={800} />
-                  </MagneticLink>
+                  </a>
                 </p>
               </div>
 
@@ -113,39 +112,39 @@ const Index = () => {
                 <div className="space-y-0.5 md:space-y-1 ml-2">
                   <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     <ScrambleText text="Democratizing Access to Private Equity — " delay={9500} duration={1000} />
-                    <MagneticLink href="http://investwithaqua.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                    <a href="http://investwithaqua.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                       <ScrambleText text="Aqua" delay={9800} duration={800} />
-                    </MagneticLink>
+                    </a>
                   </p>
                   <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     <ScrambleText text="Designing Football Pilgrimages with Eric Cantona — " delay={10500} duration={1000} />
-                    <MagneticLink href="https://www.seekdharma.com/looking-fc/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                    <a href="https://www.seekdharma.com/looking-fc/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                       <ScrambleText text="Looking FC" delay={10800} duration={800} />
-                    </MagneticLink>
+                    </a>
                   </p>
                   <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     <ScrambleText text="Launching Travel Brands — " delay={11500} duration={1000} />
-                    <MagneticLink href="https://www.seekdharma.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                    <a href="https://www.seekdharma.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                       <ScrambleText text="Dharma" delay={11800} duration={800} />
-                    </MagneticLink>
+                    </a>
                   </p>
                   <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     <ScrambleText text="Software for Digital Nomads — " delay={12500} duration={1000} />
-                    <MagneticLink href="https://www.nomad.do/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                    <a href="https://www.nomad.do/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                       <ScrambleText text="Nomad" delay={12800} duration={800} />
-                    </MagneticLink>
+                    </a>
                   </p>
                   <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     <ScrambleText text="Late-Stage Technology Private Equity — " delay={13200} duration={1000} />
-                    <MagneticLink href="https://siris.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                    <a href="https://siris.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                       <ScrambleText text="Siris Capital" delay={13500} duration={800} />
-                    </MagneticLink>
+                    </a>
                   </p>
                   <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     <ScrambleText text="Fintech Investment Banking — " delay={13900} duration={1000} />
-                    <MagneticLink href="https://www.guggenheimpartners.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+                    <a href="https://www.guggenheimpartners.com/" target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
                       <ScrambleText text="Guggenheim Partners" delay={14200} duration={800} />
-                    </MagneticLink>
+                    </a>
                   </p>
                 </div>
               </div>
