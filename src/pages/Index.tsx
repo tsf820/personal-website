@@ -39,8 +39,8 @@ const Index = () => {
             {/* Name Section */}
             <div className="space-y-0.5">
               <div>
-                <h1 className="text-2xl md:text-3xl font-light tracking-tight font-satoshi">Teddy</h1>
-                <h1 className="text-2xl md:text-3xl font-light tracking-tight font-satoshi">Freedman</h1>
+                <h1 className="text-2xl md:text-3xl font-light tracking-tight font-sans">Teddy</h1>
+                <h1 className="text-2xl md:text-3xl font-light tracking-tight font-sans">Freedman</h1>
               </div>
               
               {/* Social Links */}
@@ -54,7 +54,7 @@ const Index = () => {
                 <a href="mailto:teddyfreedman@gmail.com"
                    className="text-white/70 hover:text-white/90 transition-colors flex items-center space-x-1.5">
                   <Mail size={isMobile ? 11 : 15} />
-                  <span className="text-[11px] md:text-[14px] font-light font-satoshi">teddyfreedman@gmail.com</span>
+                  <span className="text-[11px] md:text-[14px] font-light font-sans">teddyfreedman@gmail.com</span>
                 </a>
               </div>
             </div>
@@ -62,8 +62,8 @@ const Index = () => {
             {/* Current Role - with highlight */}
             <div className="space-y-2 md:space-y-2.5">
               <div className="space-y-0.5 md:space-y-1">
-                <p className="text-[11px] md:text-[14px] font-light text-white/70 font-satoshi">CURRENTLY</p>
-                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
+                <p className="text-[11px] md:text-[14px] font-light text-white/70 font-sans">CURRENTLY</p>
+                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-sans">
                   Investing in Consumer Brick & Mortar —{' '}
                   <a href="http://bonside.com/"
                      target="_blank"
@@ -72,7 +72,7 @@ const Index = () => {
                     Bonside
                   </a>
                 </p>
-                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
+                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-sans">
                   Launching a Secondaries Platform —{' '}
                   <a href="https://duendevc.com/"
                      target="_blank"
@@ -81,7 +81,7 @@ const Index = () => {
                     Duende Ventures
                   </a>
                 </p>
-                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
+                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-sans">
                   Bringing European Tifo Culture to U.S. Stadiums —{' '}
                   <a href="https://www.tifolabs.com/"
                      target="_blank"
@@ -94,34 +94,34 @@ const Index = () => {
 
               {/* Previous Roles - with elegant spacing */}
               <div className="space-y-0.5 md:space-y-1">
-                <p className="text-[11px] md:text-[14px] font-light text-white/70 font-satoshi">PREVIOUSLY</p>
+                <p className="text-[11px] md:text-[14px] font-light text-white/70 font-sans">PREVIOUSLY</p>
                 <div className="space-y-0.5 md:space-y-1 ml-2">
-                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     Democratizing Access to Private Equity —{' '}
                     <a href="http://investwithaqua.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Aqua</a>
                   </p>
-                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     Designing Football Pilgrimages with Eric Cantona —{' '}
                     <a href="https://www.seekdharma.com/looking-fc/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Looking FC</a>
                   </p>
-                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     Launching Travel Brands —{' '}
                     <a href="https://www.seekdharma.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Dharma</a>
                   </p>
-                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     Building Software for Digital Nomads —{' '}
                     <a href="https://www.nomad.do/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Nomad</a>
                   </p>
-                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     Late-Stage Technology Private Equity —{' '}
                     <a href="https://siris.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Siris Capital</a>
                   </p>
-                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-satoshi">
+                  <p className="text-[11px] md:text-[14px] font-light hover:text-white/90 transition-colors font-sans">
                     Fintech Investment Banking —{' '}
                     <a href="https://www.guggenheimpartners.com/" target="_blank" rel="noopener noreferrer" 
                        className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">Guggenheim Partners</a>
