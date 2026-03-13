@@ -65,11 +65,29 @@ const Index = () => {
                 <p className="text-[11px] md:text-[14px] font-light text-white/70 font-satoshi">CURRENTLY</p>
                 <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
                   Investing in Consumer Brick & Mortar —{' '}
-                  <a href="http://bonside.com/" 
-                     target="_blank" 
-                     rel="noopener noreferrer" 
+                  <a href="http://bonside.com/"
+                     target="_blank"
+                     rel="noopener noreferrer"
                      className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">
                     Bonside
+                  </a>
+                </p>
+                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
+                  Launching a Secondaries Platform —{' '}
+                  <a href="https://duendevc.com/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">
+                    Duende Ventures
+                  </a>
+                </p>
+                <p className="text-[11px] md:text-[14px] font-light ml-2 hover:text-white/90 transition-colors font-satoshi">
+                  Bringing European Tifo Culture to U.S. Stadiums —{' '}
+                  <a href="https://www.tifolabs.com/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="text-white hover:text-white/80 transition-colors border-b border-white/20 hover:border-white/60">
+                    TifoLabs
                   </a>
                 </p>
               </div>
