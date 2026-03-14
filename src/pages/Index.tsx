@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <div className="w-screen fixed inset-0 bg-black text-white" style={{ height: '100dvh' }}>
       {/* Full screen Spline Animation Background */}
-      <div className="absolute inset-0 w-full h-full z-0">
+      <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
         <iframe
           src="https://my.spline.design/retrofuturismbganimation-bnpeMfLpW2NoII33RnX2Q8O2"
           frameBorder="0"
@@ -41,6 +41,8 @@ const Index = () => {
             backfaceVisibility: 'hidden',
           }}
         ></iframe>
+        {/* Cover Spline watermark in bottom-right */}
+        <div className="absolute bottom-0 right-0 w-40 h-12 bg-black z-10" />
       </div>
 
       {/* Kickable soccer ball */}
