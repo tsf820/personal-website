@@ -2,6 +2,7 @@ import { Linkedin, Mail } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { ScrambleText } from "@/components/ScrambleText";
 import { useTextScramble } from "@/hooks/use-text-scramble";
+import { KickableBall } from "@/components/KickableBall";
 
 const LINK_CLASS = "text-white hover:text-white transition-all duration-300 border-b border-white/20 hover:border-white/80 hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]";
 
@@ -41,6 +42,9 @@ const Index = () => {
           }}
         ></iframe>
       </div>
+
+      {/* Kickable soccer ball */}
+      <KickableBall />
 
       {/* Content container with proper overflow handling */}
       <div className="relative z-10 h-full w-full overflow-auto">
