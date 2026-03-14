@@ -31,18 +31,16 @@ const Index = () => {
           loading="lazy"
           style={{
             position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: `translate(-50%, -50%) scale(${isMobile ? '0.6' : '1.4'})`,
-            width: isMobile ? '180%' : '120%',
-            height: isMobile ? '180%' : '120%',
+            top: '48%',
+            left: '48%',
+            transform: `translate(-50%, -50%) scale(${isMobile ? '0.65' : '1.5'})`,
+            width: isMobile ? '200%' : '130%',
+            height: isMobile ? '200%' : '130%',
             pointerEvents: 'none',
             willChange: 'transform',
             backfaceVisibility: 'hidden',
           }}
         ></iframe>
-        {/* Cover Spline watermark in bottom-right */}
-        <div className="absolute bottom-0 right-0 w-40 h-12 bg-black z-10" />
       </div>
 
       {/* Kickable soccer ball */}
