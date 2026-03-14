@@ -19,7 +19,7 @@ const Index = () => {
   const isMobile = useIsMobile();
 
   return (
-    <div className="h-screen w-screen fixed inset-0 bg-black text-white">
+    <div className="w-screen fixed inset-0 bg-black text-white" style={{ height: '100dvh' }}>
       {/* Full screen Spline Animation Background */}
       <div className="absolute inset-0 w-full h-full z-0">
         <iframe
